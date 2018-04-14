@@ -1,6 +1,8 @@
 Dockerized Dante socks5 proxy for telegram
 ==========================================
 
+[ÐÓÑÑÊÀß Âåðñèÿ](README-RUS.md)
+
 Features
 --------
 * Docker, Docker Compose
