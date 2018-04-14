@@ -41,7 +41,7 @@ Links
 * [Telegram](https://telegram.org/)  Messenger
 * [Dante](https://www.inet.no/dante/index.html) A free SOCKS server
 
-* [Restless Phil](https://2018.schors.spb.ru) Restless Phil
+* [Restless Phil](https://2018.schors.spb.ru) Restless Phil :tm:
 * [Roscomnadzor](http://rkn.gov.ru) The Federal Service for Supervision of Communications, Information Technology, and Mass Media
 
 
