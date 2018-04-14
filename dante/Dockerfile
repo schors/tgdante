@@ -28,12 +28,10 @@ RUN set -xe \
     && apt-get purge -y --auto-remove $DANTE_DEPS \
     && rm -rf /var/lib/apt/lists/*
 
-ADD sockd.conf /sockd.conf
-
-ENV CFGFILE /sockd.conf
+ENV CFGFILE /etc/sockd.conf
 ENV PIDFILE /tmp/sockd.pid
 ENV WORKERS 50
 
-EXPOSE 30080
+EXPOSE 1080
 
 CMD sockd -f $CFGFILE -p $PIDFILE -N $WORKERS

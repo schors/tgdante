@@ -1,6 +1,8 @@
 #!/bin/sh
 
-ETCVOL="dante"
+set -e
+
+ETCVOL=`realpath "../etc"`
 
 DOCKER_CMD="docker run --rm -i -v ${ETCVOL}:/etc ubuntu:xenial"
 
@@ -13,4 +15,3 @@ if [ -z "$USER_NAME" ]; then
 fi
 
 ${DOCKER_CMD} userdel "${USER_NAME}"
-

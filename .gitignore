@@ -1,2 +1,9 @@
 *\~
 *.swp
+etc/.pwd.lock
+etc/resolv.conf
+etc/hosts
+etc/hostname
+etc/group-
+etc/passwd-
+etc/shadow-

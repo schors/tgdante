@@ -21,6 +21,8 @@ Usage
 * Edit dante/sockd.conf:
   * external: The address to be used for outgoing connections. The address given may be either a IP address or an interface name.
   * Uncoment some lines for IPv6 support
+* Edit dante/Dockerfile:
+  * Edit `ENV WORKERS 50` for preforked workers
 * Run `docker-compose up -d`
 * Use scripts in `scripts` folder for adding and removing users, changing passwords
 

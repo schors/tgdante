@@ -8,7 +8,7 @@ services:
                 hostname: dante
                 container_name: dante.local
                 volumes:
-                        - dante:/etc
+                        - ./etc:/etc
                 ports:
                         - "1080:1080"
                 network_mode: "host"
@@ -17,6 +17,3 @@ services:
                         options:
                                 tag: dante
                 restart: unless-stopped
-volumes:
-        dante:
-                external: true
