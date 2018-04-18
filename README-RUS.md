@@ -1,6 +1,8 @@
 Докеризированный Dante socks5-сервер для работы с мессенджером telegram
 =======================================================================
 
+**УСТАРЕВШАЯ ВЕРСИЯ. ИСПОЛЬЗУЙТЕ** [https://hub.docker.com/r/schors/tgdante2/](https://hub.docker.com/r/schors/tgdante2/)
+
 [ENGLISH Version](README.md)
 
 Преимущества
